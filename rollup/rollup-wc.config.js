@@ -33,6 +33,7 @@ const componentFiles = [
 	'./node_modules/@brightspace-ui/core/components/inputs/input-date-time.js',
 	'./node_modules/@brightspace-ui/core/components/inputs/input-date-time-range.js',
 	'./node_modules/@brightspace-ui/core/components/inputs/input-number.js',
+	'./node_modules/@brightspace-ui/core/components/inputs/input-percent.js',
 	'./node_modules/@brightspace-ui/core/components/inputs/input-search.js',
 	'./node_modules/@brightspace-ui/core/components/inputs/input-text.js',
 	'./node_modules/@brightspace-ui/core/components/inputs/input-textarea.js',
