@@ -90,6 +90,7 @@ const appFiles = [
 	'./node_modules/@brightspace/content-components/components/d2l-content-store/d2l-content-store.js',
 	'./node_modules/@brightspace/content-components/components/d2l-capture-central/d2l-capture-central.js',
 	'./node_modules/@brightspace-hmc/foundation-components/components/activity/editor/d2l-hc-activity-editor.js',
+	'./node_modules/@brightspace-hmc/foundation-components/features/discover/d2l-discover-sample-button.js',
 	'./node_modules/d2l-activities/components/d2l-activity-editor/d2l-activity-assignment-editor/d2l-activity-assignment-editor.js',
 	'./node_modules/d2l-activities/components/d2l-activity-editor/d2l-activity-quiz-editor/d2l-activity-quiz-editor.js',
 	'./node_modules/d2l-activities/components/d2l-work-to-do/d2l-work-to-do.js',
