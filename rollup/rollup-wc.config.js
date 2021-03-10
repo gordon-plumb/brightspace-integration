@@ -6,6 +6,9 @@ import merge from 'deepmerge';
 
 const componentFiles = [
 	'./web-components/bsi-unbundled.js',
+	'./node_modules/@brightspace/content-components/components/d2l-content-service-viewer/d2l-content-service-viewer.js',
+	'./node_modules/@brightspace/content-components/components/d2l-content-uploader/d2l-content-uploader.js',
+	'./node_modules/@brightspace/content-components/components/d2l-video-producer/d2l-video-producer.js',
 	'./node_modules/@brightspace-ui/core/components/alert/alert.js',
 	'./node_modules/@brightspace-ui/core/components/alert/alert-toast.js',
 	'./node_modules/@brightspace-ui/core/components/backdrop/backdrop.js',
@@ -84,6 +87,8 @@ const componentFiles = [
 	'./web-components/mathjax.js'
 ];
 const appFiles = [
+	'./node_modules/@brightspace/content-components/components/d2l-content-store/d2l-content-store.js',
+	'./node_modules/@brightspace/content-components/components/d2l-capture-central/d2l-capture-central.js',
 	'./node_modules/@brightspace-hmc/foundation-components/components/activity/editor/d2l-hc-activity-editor.js',
 	'./node_modules/d2l-activities/components/d2l-activity-editor/d2l-activity-assignment-editor/d2l-activity-assignment-editor.js',
 	'./node_modules/d2l-activities/components/d2l-activity-editor/d2l-activity-quiz-editor/d2l-activity-quiz-editor.js',
@@ -109,9 +114,6 @@ const appFiles = [
 	'./web-components/d2l-program-outcomes-picker.js',
 	'./web-components/d2l-quick-eval.js',
 	'./node_modules/d2l-activities/components/d2l-quick-eval-widget/d2l-quick-eval-widget.js',
-	'./web-components/d2l-content-store.js',
-	'./node_modules/d2l-content-store-add-content/d2l-content-store-add-content.js',
-	'./web-components/d2l-capture-central.js',
 	'./web-components/d2l-consistent-evaluation.js',
 	'./node_modules/d2l-consistent-evaluation/consistent-evaluation-popup-rubric.js',
 	'./web-components/d2l-content-creation.js',
