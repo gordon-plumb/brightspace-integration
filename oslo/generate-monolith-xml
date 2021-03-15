@@ -13,6 +13,7 @@ const Languages = [
 	new Lang('ar-sa', 'ar', 'ar-SA'),
 	new Lang('da-dk', 'da', 'da-DK'),
 	new Lang('de-de', 'de', 'de-DE'),
+	new Lang('es-es', 'es-es', 'es-ES'),
 	new Lang('es-mx', 'es', 'es-MX'),
 	new Lang('fr-ca', 'fr', 'fr-CA'),
 	new Lang('ja-jp', 'ja', 'ja-JP'),
