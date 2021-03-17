@@ -124,7 +124,8 @@ const appFiles = [
 	'./web-components/d2l-user-feedback.js',
 	'./node_modules/d2l-teacher-course-creation/src/components/d2l-teacher-course-creation.js',
 	'./node_modules/d2l-teacher-course-creation/src/components/d2l-teacher-course-creation-admin.js',
-	'./node_modules/d2l-outcomes-overall-achievement/src/mastery-view-table/mastery-view-table.js'
+	'./node_modules/d2l-outcomes-overall-achievement/src/mastery-view-table/mastery-view-table.js',
+	'./node_modules/d2l-quiz-components/components/d2l-question-points-setter.js'
 ];
 // NOTE: Ideally these should all be dynamically imported by apps.
 //       Please don't add new entries to this list.
