@@ -50,6 +50,7 @@ const componentFiles = [
 	'./node_modules/@brightspace-ui/core/components/menu/menu-item-radio.js',
 	'./node_modules/@brightspace-ui/core/components/menu/menu-item-separator.js',
 	'./node_modules/@brightspace-ui/core/components/more-less/more-less.js',
+	'./node_modules/@brightspace-ui/core/components/overflow-group/overflow-group.js',
 	'./node_modules/@brightspace-ui/core/components/status-indicator/status-indicator.js',
 	'./node_modules/@brightspace-ui/core/components/switch/switch.js',
 	'./node_modules/@brightspace-ui/core/components/switch/switch-visibility.js',
