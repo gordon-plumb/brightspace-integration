@@ -58,8 +58,6 @@ const componentFiles = [
 	'./node_modules/@brightspace-ui-labs/media-player/media-player.js',
 	'./node_modules/@brightspace-ui-labs/pagination/pagination.js',
 	'./node_modules/d2l-activities/components/d2l-subtitle/d2l-subtitle.js',
-	'./node_modules/d2l-button-group/d2l-button-group.js',
-	'./node_modules/d2l-button-group/d2l-action-button-group.js',
 	'./node_modules/d2l-navigation/d2l-navigation-band.js',
 	'./node_modules/d2l-navigation/d2l-navigation-button-notification-icon.js',
 	'./node_modules/d2l-navigation/d2l-navigation-button.js',
