@@ -96,6 +96,7 @@ const appFiles = [
 	'./node_modules/@brightspace-hmc/foundation-components/features/lti/d2l-lti-activity.js',
 	'./node_modules/d2l-activities/components/d2l-work-to-do/d2l-work-to-do.js',
 	'./node_modules/d2l-engagement-dashboard/engagement-dashboard.js',
+	'./node_modules/d2l-custom-early-progress-report/custom-early-progress-report.js',
 	'./web-components/d2l-activity-alignments.js',
 	'./web-components/d2l-activity-collections.js',
 	'./web-components/d2l-activity-editor.js',
