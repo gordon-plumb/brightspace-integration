@@ -3,5 +3,6 @@
   "d2l-activities": "d2l-activities/activities.serge.json",
   "d2l-engagement-dashboard": "d2l-engagement-dashboard/insights-engagement-dashboard.serge.json",
   "@brightspace-hmc/foundation-components": "@brightspace-hmc/foundation-components/foundation-components.serge.json",
-  "d2l-cpd": "d2l-cpd/continuous-professional-development.serge.json"
+  "d2l-cpd": "d2l-cpd/continuous-professional-development.serge.json",
+  "d2l-custom-early-progress-report": "d2l-custom-early-progress-report/custom-early-progress-report.serge.json"
 }
