@@ -31,6 +31,7 @@
   "dependencies": {
     "@brightspace-ui-labs/media-player": "^1",
     "@brightspace-ui-labs/pagination": "^1",
+    "@brightspace-ui-labs/status-icon": "^1",
     "@brightspace-ui-labs/user-feedback": "^1",
     "@brightspace-ui-labs/user-profile-card": "^0.5.3",
     "@brightspace-ui/core": "^1.114.0",
