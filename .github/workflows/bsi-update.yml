@@ -44,7 +44,7 @@ jobs:
       - name: Create Commit
         if: steps.check-changes.outputs.changes-exist
         run: |
-          git reset --hard origin/master
+          git reset --hard origin/main
           rm -rf ./node_modules
           rm package-lock.json
           npm install
@@ -64,7 +64,7 @@ jobs:
               owner: 'Brightspace',
               repo: 'brightspace-integration',
               head: 'Brightspace:refs/heads/${{ env.BRANCH_NAME }}',
-              base: 'refs/heads/master'
+              base: 'refs/heads/main'
             })
             if (PRs.data.length === 0) {
               const createPrResult = await github.pulls.create({
@@ -72,7 +72,7 @@ jobs:
                 repo: 'brightspace-integration',
                 title: 'Updating BSI Dependencies',
                 head: 'refs/heads/${{ env.BRANCH_NAME }}',
-                base: 'refs/heads/master'
+                base: 'refs/heads/main'
               });
               github.issues.addLabels({
                 owner: 'Brightspace',
