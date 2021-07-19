@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/Brightspace/brightspace-integration",
   "dependencies": {
+    "@brightspace-hmc/foundation-components": "BrightspaceHypermediaComponents/foundation-components.git#semver:^0",
     "@brightspace-ui-labs/media-player": "^1",
     "@brightspace-ui-labs/pagination": "^1",
     "@brightspace-ui-labs/status-icon": "^0.0.3",
@@ -38,7 +39,6 @@
     "@brightspace-ui/htmleditor": "^1",
     "@brightspace-ui/intl": "^3",
     "@brightspace-ui/logging": "^1.1.0",
-    "@brightspace-hmc/foundation-components": "BrightspaceHypermediaComponents/foundation-components.git#semver:^0",
     "@brightspace/content-components": "github:Brightspace/content-components#semver:^2",
     "@d2l/d2l-attachment": "Brightspace/attachment#semver:^1",
     "@webcomponents/webcomponentsjs": "^2",
@@ -77,6 +77,7 @@
     "d2l-simple-overlay": "Brightspace/simple-overlay#semver:^3",
     "d2l-teacher-course-creation": "Brightspace/custom-teacher-course-creation#semver:^1",
     "d2l-users": "BrightspaceHypermediaComponents/users#semver:^2",
+    "gbl-map-editor": "github:Brightspace/gbl-map-editor#b750ade6401cb86fc1ad7a00f4f26bf593e0dcac",
     "intl-messageformat-parser": "^3"
   },
   "devDependencies": {
