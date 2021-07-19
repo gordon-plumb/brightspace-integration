@@ -85,6 +85,7 @@
     "@babel/eslint-parser": "^7",
     "@babel/preset-env": "^7",
     "@babel/register": "^7",
+    "@brightspace-ui/browserslist-config": "^1",
     "@koa/cors": "^3",
     "@octokit/rest": "^17",
     "@open-wc/building-rollup": "^1",
