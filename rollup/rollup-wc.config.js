@@ -101,6 +101,7 @@ const appFiles = [
 	'./node_modules/d2l-activities/components/d2l-work-to-do/d2l-work-to-do.js',
 	'./node_modules/d2l-copy-role/copy-role.js',
 	'./node_modules/d2l-custom-early-progress-report/custom-early-progress-report.js',
+	'./node_modules/d2l-copy-assignment-to-other-courses/copy-assignment-to-other-courses.js',
 	'./node_modules/d2l-engagement-dashboard/engagement-dashboard.js',
 	'./web-components/d2l-activity-alignments.js',
 	'./web-components/d2l-activity-collections.js',
