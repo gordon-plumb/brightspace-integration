@@ -121,6 +121,22 @@ partial class MyComponent {
 
 Now whenever `MyComponent` is rendered in a view, you should see your component's BSI asset loaded from the CDN.
 
+### Troubleshooting
+
+Sometimes, the first time you add a codegen to a project it doesn't wrap it in `<AutoGenerate>`. You have to manually add the `<AutoGenerate>`.
+Make sure you have the following `<Import>` and `<AutoGenerate>` in the .csproj file.
+
+```
+  <Import Project="$(D2LPackagesDir)D2L.DevTools.CodeGen.MsBuild\build\D2L.DevTools.CodeGen.MsBuild.targets" />
+
+  <ItemGroup>
+	<AutoGenerate Include="<codegenFileLocation>\<codegenFileName>.codegen" />
+  </ItemGroup>
+```
+
+If you still have an issue after adding both `<Import>` and `<AutoGenerate>` to csproj file, comment out the usage of the module
+`m_bsiLoader.LoadModules( <codegenFileName>.Instance );` until you build the project once (which will auto-generate the class), then you should be able to uncomment it and use it.
+
 ## Local Component Development
 
 A common use case for running a local BSI is to test out a web component you're also working on locally with a Brightspace instance. That way you can avoid releasing the component and pulling the new release into BSI until you're ready.
