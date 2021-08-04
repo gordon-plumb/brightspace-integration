@@ -60,6 +60,7 @@ const componentFiles = [
 	'./node_modules/@brightspace-ui-labs/input-duration/input-duration.js',
 	'./node_modules/@brightspace-ui-labs/media-player/media-player.js',
 	'./node_modules/@brightspace-ui-labs/pagination/pagination.js',
+	'./node_modules/@brightspace-ui-labs/role-selector/role-selector.js',
 	'./node_modules/@brightspace-ui-labs/status-icon/status-icon.js',
 	'./node_modules/d2l-activities/components/d2l-subtitle/d2l-subtitle.js',
 	'./node_modules/d2l-navigation/d2l-navigation-band.js',
