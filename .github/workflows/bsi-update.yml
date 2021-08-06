@@ -1,5 +1,4 @@
-# This workflow runs "npm i" to see if any BSI dependencies have updated.
-# If so, it commits the package-lock changes and opens a PR if one does not already exist.
+# This workflow uses the update-package-lock action to update BSI dependencies.
 name: BSI Update
 
 on:
@@ -15,9 +14,6 @@ jobs:
 
     timeout-minutes: 20
 
-    env:
-      BRANCH_NAME: ghworkflow/bsi_auto_update
-
     steps:
       - name: Checkout Repository
         uses: Brightspace/third-party-actions@actions/checkout
@@ -27,81 +23,13 @@ jobs:
         with:
           node-version: '14.x'
 
-      - name: Checkout Branch
-        run: |
-          git fetch origin +refs/heads/$BRANCH_NAME:refs/heads/$BRANCH_NAME || true  
-          git checkout $BRANCH_NAME || git checkout -b $BRANCH_NAME
-
-      - name: Fresh Dependency Install
-        run: |
-          rm package-lock.json
-          npm install
-      
-      - name: Check For Changes
-        id: check-changes
-        run: git diff --exit-code package-lock.json || echo "::set-output name=changes-exist::true"
-
-      - name: Create Commit
-        if: steps.check-changes.outputs.changes-exist
-        run: |
-          git reset --hard origin/master
-          rm -rf ./node_modules
-          rm package-lock.json
-          npm install
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add package-lock.json
-          git commit -m 'BSI Auto Update Dependencies'
-          git push --force origin $BRANCH_NAME
-
-      - name: Create PR (if needed)
-        id: create-pr
-        if: steps.check-changes.outputs.changes-exist
-        uses: Brightspace/third-party-actions@actions/github-script
+      - name: Update package-lock.json
+        uses: BrightspaceUI/actions/update-package-lock@master
         with:
-          script: |
-            const PRs = await github.pulls.list({
-              owner: 'Brightspace',
-              repo: 'brightspace-integration',
-              head: 'Brightspace:refs/heads/${{ env.BRANCH_NAME }}',
-              base: 'refs/heads/master'
-            })
-            if (PRs.data.length === 0) {
-              const createPrResult = await github.pulls.create({
-                owner: 'Brightspace',
-                repo: 'brightspace-integration',
-                title: 'Updating BSI Dependencies',
-                head: 'refs/heads/${{ env.BRANCH_NAME }}',
-                base: 'refs/heads/master'
-              });
-              github.issues.addLabels({
-                owner: 'Brightspace',
-                repo: 'brightspace-integration',
-                issue_number: createPrResult.data.number,
-                labels: ['auto-update', 'auto-merge']
-              });
-              console.log('Created new PR')
-              return createPrResult.data.number;
-            } else {
-              console.log('PR already exists')
-            }
-          result-encoding: string
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-  
-      - name: Approve PR
-        if: steps.create-pr.outputs.result
-        env:
-          PULL_REQUEST_ID: ${{ steps.create-pr.outputs.result }}
-        uses: Brightspace/third-party-actions@actions/github-script
-        with:
-          script: |
-            if (process.env.PULL_REQUEST_ID && process.env.PULL_REQUEST_ID !== 'undefined') {
-              github.pulls.createReview({
-                owner: 'Brightspace',
-                repo: 'brightspace-integration',
-                pull_number: process.env.PULL_REQUEST_ID,
-                event: 'APPROVE'
-              });
-              console.log('PR approved')
-            }
-          github-token: ${{ secrets.BSI_AUTO_APPROVE_GITHUB_TOKEN }}
+          APPROVAL_TOKEN: ${{ secrets.BSI_AUTO_APPROVE_GITHUB_TOKEN }}
+          AUTO_MERGE_TOKEN: ${{ secrets.BSI_AUTO_APPROVE_GITHUB_TOKEN }}
+          BRANCH_NAME: ghworkflow/bsi_auto_update
+          COMMIT_MESSAGE: 'BSI Auto Update Dependencies'
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_TITLE: 'Updating BSI Dependencies'

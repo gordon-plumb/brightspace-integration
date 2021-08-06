@@ -20,3 +20,5 @@ jobs:
         run: |
           npm run build
           npm run build:lang
+        env:
+          NODE_OPTIONS: '--max-old-space-size=6656'
