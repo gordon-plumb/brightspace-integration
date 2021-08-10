@@ -1,11 +1,7 @@
 {
   "extends": "brightspace",
-  "env": {
-    "es6": true,
-    "node": true
-  },
   "parserOptions": {
-    "ecmaVersion": 9
+    "sourceType": "script"
   },
   "rules": {
     "no-console": 0

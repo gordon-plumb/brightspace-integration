@@ -1,13 +1,10 @@
 
-'use strict';
+import cors from '@koa/cors';
 
-const cors = require('@koa/cors');
-
-module.exports = {
-	compatibility: 'auto',
-	dedupe: true,
+export default {
+	esbuildTarget: 'auto',
 	hostname: process.env.npm_config_hostname || 'localhost',
-	middlewares: [
+	middleware: [
 		cors({ origin: '*' }),
 		function rewrite(context, next) {
 			if (context.url.startsWith('/bsi.') || context.url.startsWith('/datagrid.') || context.url.startsWith('/homepages.') || context.url.startsWith('/images/')) {
@@ -16,7 +13,6 @@ module.exports = {
 			return next();
 		}
 	],
-	nodeResolve: true,
 	plugins: [
 		{
 			transform(context) {
