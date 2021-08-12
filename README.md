@@ -11,6 +11,9 @@ This project brings together many off-stack components, libraries and modules fo
 npm install
 ```
 
+**Note:** BSI Supports Node 12 and 14 only. Ensure that your version is 12.21.0+ or 14.17.3+.  If you have another version, the npm install will hang.  To downgrade, use NVM and ensure the node_modules does not exist before trying again.  
+NVM repository links: [Windows](https://github.com/coreybutler/nvm-windows) | [MacOS/Linux](https://github.com/nvm-sh/nvm)
+
 ## Building & Running a Local BSI
 
 There are two ways to build and run a local BSI, both with their pros & cons.
