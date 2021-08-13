@@ -101,6 +101,7 @@
     "chai": "^4",
     "chalk": "^2",
     "concurrently": "^5",
+    "core-js": "^3",
     "eslint": "^7",
     "eslint-config-brightspace": "^0.13",
     "eslint-plugin-html": "^6",

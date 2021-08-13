@@ -1,3 +1,4 @@
+import './polyfills.js';
 import webComponentsReady from './d2l-web-components-ready.js';
 import './timing-debug.js';
 import './performance-timings.js';
