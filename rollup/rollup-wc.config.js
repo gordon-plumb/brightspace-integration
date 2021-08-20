@@ -122,8 +122,6 @@ const appFiles = [
 	'./web-components/d2l-my-courses.js',
 	'./web-components/d2l-my-dashboards.js',
 	'./web-components/d2l-sequence-viewer.js',
-	'./web-components/d2l-outcomes-level-of-achievements.js',
-	'./web-components/d2l-outcomes-user-progress.js',
 	'./web-components/d2l-program-outcomes-picker.js',
 	'./web-components/d2l-quick-eval.js',
 	'./node_modules/d2l-activities/components/d2l-quick-eval-widget/d2l-quick-eval-widget.js',
