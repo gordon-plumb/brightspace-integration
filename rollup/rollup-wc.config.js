@@ -57,6 +57,7 @@ const componentFiles = [
 	'./node_modules/@brightspace-ui/core/components/table/table-col-sort-button.js',
 	'./node_modules/@brightspace-ui/core/components/tooltip/tooltip.js',
 	'./node_modules/@brightspace-ui/htmleditor/htmleditor.js',
+	'./node_modules/@brightspace-ui-labs/card-overlay/card-overlay.js',
 	'./node_modules/@brightspace-ui-labs/input-duration/input-duration.js',
 	'./node_modules/@brightspace-ui-labs/media-player/media-player.js',
 	'./node_modules/@brightspace-ui-labs/pagination/pagination.js',
