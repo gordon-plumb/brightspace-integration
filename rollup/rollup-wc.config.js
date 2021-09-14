@@ -88,6 +88,7 @@ const componentFiles = [
 	'./web-components/d2l-simple-overlay.js',
 	'./web-components/d2l-table.js',
 	'./web-components/d2l-tabs.js',
+	'./web-components/ifrau.js',
 	'./web-components/intl-messageformat-parser.js',
 	'./web-components/mathjax.js'
 ];
