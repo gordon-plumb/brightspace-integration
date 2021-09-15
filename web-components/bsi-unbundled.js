@@ -1,3 +1,4 @@
+import '@brightspace-ui/core/components/colors/colors.js';
 import { formatNumber, parseNumber } from '@brightspace-ui/intl/lib/number.js';
 import { formatTime, parseTime } from '@brightspace-ui/intl/lib/dateTime.js';
 import { d2lfetch } from 'd2l-fetch/src';
