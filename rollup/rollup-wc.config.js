@@ -146,6 +146,7 @@ const staticFiles = [
 	'node_modules/d2l-awards-leaderboard-ui/images/**',
 	'node_modules/d2l-awards-leaderboard-ui/lang/*.json',
 	'node_modules/d2l-rubric/editor/images/**',
+	'node_modules/d2l-rubric/src/editor/images/**',
 	'node_modules/d2l-html-editor/skin-4.3.7/**',
 	'node_modules/d2l-html-editor/langs/**',
 	'node_modules/d2l-html-editor/d2l_lang_plugin/**',
