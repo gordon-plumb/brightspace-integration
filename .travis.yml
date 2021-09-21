@@ -18,10 +18,6 @@ script:
   if [ "$TRAVIS_TEST_RESULT" == "0" ] && [ "$TRAVIS_SECURE_ENV_VARS" == "true" ] && [ "x$TRAVIS_TAG" != "x" ]; then
     npm run publish:cdn;
   fi
-env:
-  global:
-  # GITHUB_TOKEN
-  - secure: MLxmozticV2Zdmm96znAr4ZSXWF2ztB3DU7+9hH99LsSRj8Wly190sb7gbNY3Y5aw/3NKVO1TBdt7VvPxC2zFzzqYXbR3zpEPHkPt7YAuB8Q5jFLLYfF2i2Cxrozu5FYM5qA0dpxQZ7u3miBOp8tATFOtJQuXjaTh56FGewrcfXCantdJoPCgSmuwdi1cvfBTmRD/pDb1X5P7sC7KmROdfAZEHwAVgwMf5h5xpVvKnh245qPtkM/vg4hkTqI/72nmaV7LMrG0Uio39XOMFwjOFzvOqBcbuyNXjgNVuF0pbRvSdEUMKEtvwZ8IhwV/yCKAVymSLFbZtDmbqJk7tEn9Atp/iTATTpzxFU547DcPW7YL+vakL3sCKhukxz4VzwGDosyZIc1zgrBaS6u+q4U14JkuN55UaPlnbc+AHxYr3of+ahuaGD93wMam9uzsMuFMvfXExVitZ4s9lvCK8bwz6jJ0CK5+p1zkA1U0A3vH1skAZvwv/gdUppXO7OLc4fXSV8VSDvkiBRh7vtNc0rUsS3V053M4PRokuhsviQhacda2BsticTAC/yRuTjFBj+Puun8QYuq+tghALXyIUAzWXlP/BV8s6JrrmooeyRz2REuu795kdu+NIT8E80hJHzYbbiNdGk9mZ1ER7wEaL6uUAUyAiBAoTAhFuvmKkDSBEA=
 notifications:
   slack:
     # build-triage-bsi
