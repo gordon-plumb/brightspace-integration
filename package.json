@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/Brightspace/brightspace-integration",
   "dependencies": {
+    "@brightspace-hmc/foundation-components": "BrightspaceHypermediaComponents/foundation-components.git#semver:^0",
     "@brightspace-ui-labs/card-overlay": "^1",
     "@brightspace-ui-labs/input-duration": "^1",
     "@brightspace-ui-labs/media-player": "^1",
@@ -40,7 +41,6 @@
     "@brightspace-ui/htmleditor": "^1",
     "@brightspace-ui/intl": "^3",
     "@brightspace-ui/logging": "^1.1.0",
-    "@brightspace-hmc/foundation-components": "BrightspaceHypermediaComponents/foundation-components.git#semver:^0",
     "@brightspace/content-components": "github:Brightspace/content-components#semver:^2",
     "@d2l/d2l-attachment": "Brightspace/attachment#semver:^1",
     "@webcomponents/webcomponentsjs": "^2",
@@ -51,10 +51,10 @@
     "d2l-assessment-quality-dashboard": "github:Brightspace/insights-assessment-quality-dashboard#semver:^1",
     "d2l-awards-leaderboard-ui": "Brightspace/awards-leaderboard-ui#semver:^1",
     "d2l-consistent-evaluation": "BrightspaceHypermediaComponents/consistent-evaluation#semver:^1",
+    "d2l-copy-assignment-to-other-courses": "Brightspace/copy-assignment-to-other-courses#semver:^1",
     "d2l-copy-role": "Brightspace/copy-role#semver:^1",
     "d2l-cpd": "Brightspace/continuous-professional-development#semver:^2",
     "d2l-custom-early-progress-report": "Brightspace/custom-early-progress-report#semver:^1",
-    "d2l-copy-assignment-to-other-courses": "Brightspace/copy-assignment-to-other-courses#semver:^1",
     "d2l-discovery-fra": "github:Brightspace/discovery-fra#semver:^3",
     "d2l-engagement-dashboard": "github:Brightspace/insights-engagement-dashboard#semver:^1",
     "d2l-fetch": "Brightspace/d2l-fetch.git#semver:^2",
@@ -81,6 +81,7 @@
     "d2l-teacher-course-creation": "Brightspace/custom-teacher-course-creation#semver:^1",
     "d2l-telemetry-browser-client": "Brightspace/d2l-telemetry-browser-client#semver:^1",
     "d2l-users": "BrightspaceHypermediaComponents/users#semver:^2",
+    "ifrau": "^0.39.0",
     "intl-messageformat-parser": "^3"
   },
   "devDependencies": {
