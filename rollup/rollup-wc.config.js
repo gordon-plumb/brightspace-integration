@@ -107,6 +107,7 @@ const appFiles = [
 	'./node_modules/d2l-custom-early-progress-report/custom-early-progress-report.js',
 	'./node_modules/d2l-copy-assignment-to-other-courses/copy-assignment-to-other-courses.js',
 	'./node_modules/d2l-engagement-dashboard/engagement-dashboard.js',
+	'./node_modules/d2l-module-scheduler/module-scheduler.js',
 	'./node_modules/d2l-outcomes-level-of-achievements/d2l-outcomes-level-of-achievements.js',
 	'./node_modules/d2l-outcomes-user-progress/d2l-outcomes-user-progress.js',
 	'./node_modules/d2l-rubric/d2l-rubric.js',
