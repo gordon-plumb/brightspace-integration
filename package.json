@@ -82,7 +82,7 @@
     "d2l-teacher-course-creation": "Brightspace/custom-teacher-course-creation#semver:^1",
     "d2l-telemetry-browser-client": "Brightspace/d2l-telemetry-browser-client#semver:^1",
     "d2l-users": "BrightspaceHypermediaComponents/users#semver:^2",
-    "ifrau": "^0.39.0",
+    "ifrau": "^0.39",
     "intl-messageformat-parser": "^3"
   },
   "devDependencies": {
