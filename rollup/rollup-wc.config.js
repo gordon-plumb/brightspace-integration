@@ -97,6 +97,7 @@ const componentFiles = [
 const appFiles = [
 	'./node_modules/@brightspace/content-components/applications/d2l-capture-central.js',
 	'./node_modules/@brightspace/content-components/applications/d2l-content-store.js',
+	'./node_modules/@brightspace/content-components/capture/d2l-capture-producer.js',
 	'./node_modules/@brightspace-hmc/foundation-components/components/activity/editor/d2l-hc-activity-editor.js',
 	'./node_modules/@brightspace-hmc/foundation-components/features/discover/d2l-discover-rules.js',
 	'./node_modules/@brightspace-hmc/foundation-components/features/lti/d2l-lti-activity.js',
