@@ -78,6 +78,9 @@ async function main() {
 				const translation = translations.get(language.code);
 				const collection = await serge.getTranslation(language);
 				if (collection) {
+					if (language.code === 'zh-tw') {
+						console.log(moduleName);
+					}
 					translation.addCollection(collection);
 				}
 			}
