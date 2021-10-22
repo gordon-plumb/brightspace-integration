@@ -26,7 +26,7 @@ const Languages = [
 	new Lang('sv-se', 'sv', 'sv-SE'),
 	new Lang('tr-tr', 'tr', 'tr-TR'),
 	new Lang('zh-cn', 'zh-cn', 'zh-CN'),
-	new Lang('zh-tw', 'zh-TW', 'zh-TW'),
+	new Lang('zh-tw', 'zh-tw', 'zh-TW'),
 ];
 const PackageName = 'WebComponents';
 const TranslationReplacement = '%CULTURE:LC%';
@@ -65,7 +65,10 @@ async function main() {
 		for (const sergeConfig of sergeConfigs) {
 
 			const serge = new Serge(ModulesRoot, moduleName, modulePath, sergeConfig);
-
+			//console.log(moduleName);
+			if (moduleName === 'd2l-activities') {
+				console.log(sergeConfig);
+			}
 			const collection = await serge.getSource();
 			if (!collection) {
 				throw new Error(`Could not load definitions for "${serge.name}".`);
