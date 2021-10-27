@@ -38,7 +38,7 @@
     "@brightspace-ui-labs/user-feedback": "^1",
     "@brightspace-ui-labs/user-profile-card": "^0.6",
     "@brightspace-ui/core": "^1.114.0",
-    "@brightspace-ui/htmleditor": "^1",
+    "@brightspace-ui/htmleditor": "~1.28",
     "@brightspace-ui/intl": "^3",
     "@brightspace-ui/logging": "^1.1.0",
     "@brightspace/content-components": "github:Brightspace/content-components#semver:^2",
