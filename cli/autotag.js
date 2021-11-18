@@ -197,11 +197,11 @@ async function main() {
 	}
 
 	const branchName = process.env.TRAVIS_BRANCH;
-	const isMaster = (branchName === 'master');
+	const isMain = (branchName === 'main');
 
 	let release;
-	if (isMaster) {
-		console.log('Master branch detected.');
+	if (isMain) {
+		console.log('Main branch detected.');
 		release = await tryGetActiveDevelopmentRelease();
 		if (release === null) {
 			console.log('Aborting auto-tag.');

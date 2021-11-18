@@ -4,7 +4,7 @@ node_js:
 sudo: false
 branches:
   only:
-  - master
+  - main
   - /20.*/
 script:
 - npm run test
