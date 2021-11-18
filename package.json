@@ -61,6 +61,7 @@
     "d2l-fetch-auth": "^1",
     "d2l-fetch-dedupe": "^1",
     "d2l-fetch-simple-cache": "^1",
+    "d2l-flashcards":"BrightspaceUILabs/flashcards#semver:^1",
     "d2l-image-banner-overlay": "Brightspace/d2l-image-banner-overlay#semver:^4",
     "d2l-lti-components": "Brightspace/lti-components#semver:^2",
     "d2l-module-scheduler": "Brightspace/module-scheduler#semver:^1",
