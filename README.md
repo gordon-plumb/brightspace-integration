@@ -1,6 +1,6 @@
 # brightspace-integration
 
-[![Build status](https://travis-ci.com/Brightspace/brightspace-integration.svg?branch=master)](https://travis-ci.com/Brightspace/brightspace-integration)
+[![Build status](https://travis-ci.com/Brightspace/brightspace-integration.svg?branch=main)](https://travis-ci.com/Brightspace/brightspace-integration)
 [![Dependency Status](https://img.shields.io/david/Brightspace/brightspace-integration.svg)](https://david-dm.org/Brightspace/brightspace-integration)
 
 This project brings together many off-stack components, libraries and modules for inclusion into a particular build of Brightspace.
@@ -120,7 +120,7 @@ Once your pull request is approved and CI has passed, merge and the automatic ta
 
 ### Automatic Tagging
 
-When a pull request is merged to `master`, a unique version tag corresponding with the current active development release of Brightspace will be automatically applied.
+When a pull request is merged to `main`, a unique version tag corresponding with the current active development release of Brightspace will be automatically applied.
 
 When a pull request is merged to a branch whose name matches our versioning scheme (e.g. `20.20.8`), a version tag for that release will be automatically applied.
 
