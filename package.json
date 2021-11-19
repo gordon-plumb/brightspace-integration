@@ -7,7 +7,7 @@
     "build": "rimraf build && rollup -c ./rollup/rollup.config.js && rollup -c ./rollup/rollup-wc.config.js",
     "build:lang": "node ./oslo/generate-monolith-xml",
     "build:serge-mapping": "node ./oslo/generate-serge-mapping",
-    "lint": "eslint *.mjs web-components/** js/** rollup/** test/** cli/** oslo/*.js",
+    "lint": "eslint . --ext .js,.cjs,.mjs,.html",
     "publish:autotag": "node ./cli/autotag.js",
     "publish:cdn": "frau-publisher -m lib -t bsi -f \"./build/**/*\" --versionvar TRAVIS_TAG",
     "start": "npm run start:dev",
