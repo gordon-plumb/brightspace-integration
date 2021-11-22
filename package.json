@@ -33,7 +33,7 @@
     "@brightspace-ui-labs/card-overlay": "^1",
     "@brightspace-ui-labs/flashcards": "^1",
     "@brightspace-ui-labs/input-duration": "^1",
-    "@brightspace-ui-labs/media-player": "^1",
+    "@brightspace-ui-labs/media-player": "^2",
     "@brightspace-ui-labs/pagination": "^1",
     "@brightspace-ui-labs/status-icon": "^0.0.3",
     "@brightspace-ui-labs/user-feedback": "^1",
