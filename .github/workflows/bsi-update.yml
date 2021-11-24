@@ -30,6 +30,5 @@ jobs:
           AUTO_MERGE_TOKEN: ${{ secrets.BSI_AUTO_APPROVE_GITHUB_TOKEN }}
           BRANCH_NAME: ghworkflow/bsi_auto_update
           COMMIT_MESSAGE: 'BSI Auto Update Dependencies'
-          DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_TITLE: 'Updating BSI Dependencies'
