@@ -10,5 +10,6 @@
   "d2l-module-scheduler": "d2l-module-scheduler/module-scheduler.serge.json",
   "@brightspace-ui/htmleditor": "@brightspace-ui/htmleditor/htmleditor.serge.json",
   "d2l-consistent-evaluation": "d2l-consistent-evaluation/consistent-evaluation.serge.json",
-  "d2l-sequences": "d2l-sequences/d2l-sequences.serge.json"
+  "d2l-sequences": "d2l-sequences/d2l-sequences.serge.json",
+  "d2l-my-courses": "d2l-my-courses/d2l-my-courses.serge.json"
 }
