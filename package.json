@@ -31,6 +31,7 @@
   "dependencies": {
     "@brightspace-hmc/foundation-components": "BrightspaceHypermediaComponents/foundation-components.git#semver:^0",
     "@brightspace-ui-labs/card-overlay": "^1",
+    "@brightspace-ui-labs/course-selector": "BrightspaceUILabs/course-selector#semver:^1",
     "@brightspace-ui-labs/flashcards": "^1",
     "@brightspace-ui-labs/input-duration": "^1",
     "@brightspace-ui-labs/media-player": "^2",
@@ -54,7 +55,6 @@
     "d2l-consistent-evaluation": "BrightspaceHypermediaComponents/consistent-evaluation#semver:^1",
     "d2l-copy-assignment-to-other-courses": "Brightspace/copy-assignment-to-other-courses#semver:^1",
     "d2l-copy-role": "Brightspace/copy-role#semver:^1",
-    "d2l-course-selector": "BrightspaceUILabs/course-selector#semver:^1",
     "d2l-cpd": "Brightspace/continuous-professional-development#semver:^2",
     "d2l-custom-early-progress-report": "Brightspace/custom-early-progress-report#semver:^1",
     "d2l-discovery-fra": "github:Brightspace/discovery-fra#semver:^3",
