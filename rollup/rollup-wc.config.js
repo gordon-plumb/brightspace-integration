@@ -116,7 +116,6 @@ const appFiles = [
 	'./node_modules/d2l-outcomes-level-of-achievements/d2l-outcomes-level-of-achievements.js',
 	'./node_modules/d2l-outcomes-user-progress/d2l-outcomes-user-progress.js',
 	'./node_modules/d2l-rubric/d2l-rubric.js',
-	'./node_modules/d2l-rubric/d2l-rubric-title.js',
 	'./node_modules/d2l-rubric/d2l-rubric-editor.js',
 	'./node_modules/d2l-rubric/d2l-rubric-structure-editor.js',
 	'./web-components/d2l-activity-alignments.js',
