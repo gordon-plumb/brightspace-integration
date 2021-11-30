@@ -31,6 +31,7 @@
   "dependencies": {
     "@brightspace-hmc/foundation-components": "BrightspaceHypermediaComponents/foundation-components.git#semver:^0",
     "@brightspace-ui-labs/card-overlay": "^1",
+    "@brightspace-ui-labs/course-selector": "BrightspaceUILabs/course-selector#semver:^1",
     "@brightspace-ui-labs/flashcards": "^1",
     "@brightspace-ui-labs/input-duration": "^1",
     "@brightspace-ui-labs/media-player": "^2",

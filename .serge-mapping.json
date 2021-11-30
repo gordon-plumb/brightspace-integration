@@ -7,6 +7,7 @@
   "d2l-cpd": "d2l-cpd/continuous-professional-development.serge.json",
   "d2l-custom-early-progress-report": "d2l-custom-early-progress-report/custom-early-progress-report.serge.json",
   "d2l-copy-assignment-to-other-courses": "d2l-copy-assignment-to-other-courses/copy-assignment-to-other-courses.serge.json",
+  "@brightspace-ui-labs/course-selector": "@brightspace-ui-labs/course-selector/course-selector.serge.json",
   "d2l-module-scheduler": "d2l-module-scheduler/module-scheduler.serge.json",
   "@brightspace-ui/htmleditor": "@brightspace-ui/htmleditor/htmleditor.serge.json",
   "d2l-consistent-evaluation": "d2l-consistent-evaluation/consistent-evaluation.serge.json",

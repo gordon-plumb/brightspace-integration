@@ -60,6 +60,7 @@ const componentFiles = [
 	'./node_modules/@brightspace-ui/core/components/tooltip/tooltip.js',
 	'./node_modules/@brightspace-ui/htmleditor/htmleditor.js',
 	'./node_modules/@brightspace-ui-labs/card-overlay/card-overlay.js',
+	'./node_modules/@brightspace-ui-labs/course-selector/course-selector.js',
 	'./node_modules/@brightspace-ui-labs/flashcards/src/d2l-flashcards-deck-collection.js',
 	'./node_modules/@brightspace-ui-labs/input-duration/input-duration.js',
 	'./node_modules/@brightspace-ui-labs/media-player/media-player.js',
