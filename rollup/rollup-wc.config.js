@@ -67,6 +67,7 @@ const componentFiles = [
 	'./node_modules/@brightspace-ui-labs/role-selector/role-selector.js',
 	'./node_modules/@brightspace-ui-labs/status-icon/status-icon.js',
 	'./node_modules/d2l-activities/components/d2l-subtitle/d2l-subtitle.js',
+	'./node_modules/d2l-course-selector/course-selector.js',
 	'./node_modules/d2l-lti-components/lti-launch.js',
 	'./node_modules/d2l-navigation/d2l-navigation-band.js',
 	'./node_modules/d2l-navigation/d2l-navigation-button-notification-icon.js',
