@@ -12,5 +12,5 @@
   "d2l-consistent-evaluation": "d2l-consistent-evaluation/consistent-evaluation.serge.json",
   "d2l-sequences": "d2l-sequences/d2l-sequences.serge.json",
   "@brightspace/content-components": "@brightspace/content-components/content-components.serge.json",
-  "discovery-fra/discover": "discovery-fra/discover-fra.serge.json"
+  "d2l-discovery-fra/discovery": "d2l-discovery-fra/discovery-fra.serge.json"
 }
