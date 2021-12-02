@@ -37,7 +37,7 @@
     "@brightspace-ui-labs/pagination": "^1",
     "@brightspace-ui-labs/status-icon": "^0.0.3",
     "@brightspace-ui-labs/user-feedback": "^1",
-    "@brightspace-ui-labs/user-profile-card": "^0.7",
+    "@brightspace-ui-labs/user-profile-card": "^0.9",
     "@brightspace-ui/core": "^1.114.0",
     "@brightspace-ui/htmleditor": "^1",
     "@brightspace-ui/intl": "^3",
